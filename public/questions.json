@@ -1,0 +1,47 @@
+[
+ {
+   "id": 1,
+   "query": "My clients and prospects never question or ask me to lower my prices",
+   "response": -1
+ },
+ {
+   "id": 2,
+   "query": "My clients and prospective clients do not compare my prices to others in my industry when making purchasing decisions.",
+   "response": -1
+ },
+ {
+   "id": 3,
+   "query": "My clients and prospects believe my offering is worth paying a premium for.",
+   "response": -1
+ },
+ {
+   "id": 4,
+   "query": "I have a defined client niche that loves what I offer",
+   "response": -1
+ },
+ {
+   "id": 5,
+   "query": "I know exactly who my best customers are and what they want and need",
+   "response": -1
+ },
+ {
+   "id": 6,
+   "query": "My marketing is highly effective at bringing in new clients",
+   "response": -1
+ },
+ {
+   "id": 7,
+   "query": "My company can run effectively without me",
+   "response": -1
+ },
+ {
+   "id": 8,
+   "query": "I can grow my business without working longer hours",
+   "response": -1
+ },
+ {
+   "id": 9,
+   "query": "I delegate all tasks that do not require my expertise to others",
+   "response": -1
+ }
+]
