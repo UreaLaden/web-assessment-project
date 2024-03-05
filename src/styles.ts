@@ -124,6 +124,7 @@ export const styles = mergeStyleSets({
   categoryHeader: {
     strokeWidth: "0.245669",
     strokeDasharray: "none",
+    fontSize:'.8vw'
   },
   questionGroup2: {
     opacity: "0",
