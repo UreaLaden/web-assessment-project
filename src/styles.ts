@@ -24,24 +24,24 @@ export const styles = mergeStyleSets({
       },
     },
   },
-  cardText:{
-    fontSize:'2vh'
+  cardText: {
+    fontSize: "2vh",
   },
   graphContainer: {
     selectors: {
       "@media only screen and (min-width: 601px)": {
         gridColumn: "4/11",
         gridRow: "2/-1",
-        svg:{
-          transform:'scale(1)'
-        }
+        svg: {
+          transform: "scale(1)",
+        },
       },
       "@media only screen and (max-width: 600px)": {
         gridColumn: "6/-1",
         gridRow: "1/-1",
-        svg:{
-          transform:'scale(2)'
-        }
+        svg: {
+          transform: "scale(2)",
+        },
       },
     },
   },
@@ -133,7 +133,15 @@ export const styles = mergeStyleSets({
   categoryHeader: {
     strokeWidth: "0.245669",
     strokeDasharray: "none",
-    fontSize:'.8vw'
+    fontSize: ".8vw",
+    selectors: {
+      "@media only screen and (min-width: 601px)": {
+        fontSize: ".8vw",
+      },
+      "@media only screen and (max-width: 600px)": {
+        fontSize:"3.5vw"
+      },
+    },
   },
   questionGroup2: {
     opacity: "0",
