@@ -357,7 +357,7 @@ const WebGraph: React.FC<iWebGraphProps> = ({ selections }) => {
         <g id="category_circles" className={styles.groupContainer}>
           <path
             id="path160"
-            className={styles.categoryCirclePath}
+            className={styles.categoryCirclePathIntersection}
             d="m 539.88673,370.8672 a 166.17009,153.79573 0 0 0 -27.06055,2.25195 166.17009,153.79573 0 0 0 35.8379,64.63672 166.17009,153.79573 0 0 0 33.07617,-61.90039 166.17009,153.79573 0 0 0 -41.85352,-4.98828 z"
           />
           <path

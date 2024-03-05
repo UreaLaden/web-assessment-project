@@ -95,6 +95,15 @@ export const styles = mergeStyleSets({
     strokeLinecap: "square",
     strokeOpacity: "1",
   },
+  categoryCirclePathIntersection: {
+    display: "inline",
+    fill: "#15a053",
+    fillOpacity: "0.5",
+    stroke: "#15a053",
+    strokeWidth: "2.13543",
+    strokeLinecap: "square",
+    strokeOpacity: "1",
+  },
   textPath1: {
     fontSize: "12px",
     fontFamily: "Source Sans Pro",
