@@ -88,7 +88,7 @@ const App: React.FC = () => {
     return (
       CurrentQuestion && (
         <div className={styles.cardContainer}>
-          <div>{`${questionNumber}. ${CurrentQuestion.query}`}</div>
+          <div className={styles.cardText}>{`${questionNumber}. ${CurrentQuestion.query}`}</div>
           <ChoiceGroup
             options={responseOptions}
             onChange={onOptionSelected}

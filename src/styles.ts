@@ -13,6 +13,19 @@ export const styles = mergeStyleSets({
     padding: "15%",
     boxShadow: "1px 1px 5px rgba(0,0,0,0.3)",
     borderRadius: "15px",
+    selectors: {
+      "@media only screen and (width: 800px)": {
+        gridColumn: "6/10",
+        gridRow: "2/6",
+      },
+      "@media only screen and (max-width: 600px)": {
+        gridColumn: "2/14",
+        gridRow: "2/6",
+      },
+    },
+  },
+  cardText:{
+    fontSize:'2vh'
   },
   graphContainer: {
     gridColumn: "4/11",
