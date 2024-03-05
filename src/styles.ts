@@ -2,7 +2,7 @@ import { mergeStyleSets } from "@fluentui/react";
 
 export const styles = mergeStyleSets({
   appContainer: {
-    height: "100&",
+    height: "100%",
     display: "grid",
     gridTemplateColumns: "repeat(14,1fr)",
     gridTemplateRows: "repeat(7,1fr)",
@@ -28,8 +28,22 @@ export const styles = mergeStyleSets({
     fontSize:'2vh'
   },
   graphContainer: {
-    gridColumn: "4/11",
-    gridRow: "2/-1",
+    selectors: {
+      "@media only screen and (min-width: 601px)": {
+        gridColumn: "4/11",
+        gridRow: "2/-1",
+        svg:{
+          transform:'scale(1)'
+        }
+      },
+      "@media only screen and (max-width: 600px)": {
+        gridColumn: "6/-1",
+        gridRow: "1/-1",
+        svg:{
+          transform:'scale(2)'
+        }
+      },
+    },
   },
   Web: {
     fontStyle: "normal",

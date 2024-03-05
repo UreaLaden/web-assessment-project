@@ -18,8 +18,8 @@ const WebGraph: React.FC<iWebGraphProps> = ({ selections }) => {
 
   return (
     <svg
-      width="296.99997mm"
-      height="210mm"
+      width="auto"
+      height="auto"
       viewBox="0 0 1500 1000"
       version="1.1"
       id="svg1"
