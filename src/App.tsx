@@ -67,17 +67,15 @@ const App: React.FC = () => {
   const onActionButtonClicked = React.useCallback(
     (e: React.MouseEvent<HTMLButtonElement>) => {
       e.preventDefault();
-      if (questionNumber < questions.length) {
-        setQuestionNumber(questionNumber + 1);
-        if (currentResponseNumber > 0) {
-          const response: iQuestionResponse = {
-            questionNumber: questionNumber,
-            responseNumber: currentResponseNumber,
-          };
-          console.log(response);
-          setResponses((prev) => [...prev, response]);
-        }
-      } else {
+      setQuestionNumber(questionNumber + 1);
+      if (currentResponseNumber > 0) {
+        const response: iQuestionResponse = {
+          questionNumber: questionNumber,
+          responseNumber: currentResponseNumber,
+        };
+        setResponses((prev) => [...prev, response]);
+      }
+      if (questionNumber === questions.length) {
         setShowGraph(true);
       }
       setSelectedOption(null);

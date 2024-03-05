@@ -9,7 +9,7 @@ const WebGraph: React.FC<iWebGraphProps> = ({ selections }) => {
     selections.forEach((v) => {
       const targetId = `q${v.questionNumber}_${v.responseNumber}`;
       const el = document.getElementById(targetId);
-      console.log(el);
+      console.log(v);
       if (el) {
         el.style.opacity = "1";
       }
